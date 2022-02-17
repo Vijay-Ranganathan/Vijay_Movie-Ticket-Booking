@@ -9,9 +9,9 @@
 int main()
 {
     int count = 0;
-	int **seatnum,choice,price=500,selection,i;
+	int **seatnum,choice,price=400,selection,i;
 	seatnum=(int **)calloc(101,sizeof(int *));
-	for (i=0;i<3;i++)
+	for (i=0;i<4;i++)
 		*(seatnum+i)=(int *)calloc(101,sizeof(int ));
 	int x;
 	char pass[10],pak[10]="user";
